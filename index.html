@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lucas Gabriel - Desenvolvedor Frontend</title>
+
+  <link rel="stylesheet" href="src/css/font-awesome.css" />
+  <link rel="stylesheet" href="src/css/reset.css" />
+  
+  <!-- Global -->
+  <link rel="stylesheet" href="src/css/globais.css" />
+  <link rel="stylesheet" href="src/css/variaveis.css" />
+  <link rel="stylesheet" href="src/css/secoes/header.css" />
+  <link rel="stylesheet" href="src/css/secoes/home.css" />
+  <link rel="stylesheet" href="src/css/secoes/sobre.css" />
+  <link rel="stylesheet" href="src/css/secoes/habilidades.css" />
+  <link rel="stylesheet" href="src/css/secoes/projetos.css" />
+  <link rel="stylesheet" href="src/css/secoes/footer.css" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row justify-content-between alinhar-itens-no-centro">
+        <a href="#">
+          <h1 class="logo">LG</h1>
+        </a>
+        <nav>
+          <input id="menu-hamburguer" type="checkbox" />
+
+          <label for="menu-hamburguer">
+            <div class="menu">
+              <span class="hamburguer"></span>
+            </div>
+          </label>
+          <ul>
+            <li><a href="#sobre-mim">Sobre mim</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#projetos">Meus projetos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="home">
+    <div class="container">
+      <div class="row full-screen alinhar-itens-no-centro">
+        <div class="texto-home">
+          <p>Olá,</p>
+          <h1>Sou o Lucas Gabriel</h1>
+          <h2>Desenvolvedor Frontend</h2>
+
+          <div class="redes-sociais">
+            <a href="https://www.linkedin.com/in/lucasghcs/" class="outer-shadow"><i class="fab fa-linkedin-in"></i></a>
+            <!-- <a href="#" class="outer-shadow"><i class="fab fa-whatsapp"></i></a> -->
+            <a href="https://github.com/Lucasghcs" class="outer-shadow"><i class="fab fa-github"></i></a>
+            <!-- <a href="#" class="outer-shadow"><i class="fab fa-instagram"></i></a> -->
+          </div>
+        </div>
+
+        <div class="img-home">
+          <div class="img-box inner-shadow">
+            <img class="outer-shadow" src="src/imagens/foto-perfil.jpg" alt="foto do perfil do Ricardo" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="sobre-mim section" id="sobre-mim">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Sobre mim</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="imagem-sobre-mim">
+          <div class="img-box inner-shadow">
+            <img src="src/imagens/foto-perfil.jpg" alt="foto sobre mim" class="outer-shadow" />
+          </div>
+        </div>
+        <div class="informacoes-sobre-mim">
+          <p>
+            <strong>Olá! Me chamo Lucas Gabriel e sou um desenvolvedor frontend em
+              formação!</strong>
+              Gosto muito da área de tecnologia, e tenho certeza que posso contribuir em qualquer time com as minhas habilidades.
+          </p>
+
+          <p>
+           Estou sempre me desafiando com novos projetos e participando de comunidades de programação para buscar feedback de outros desenvolvedores e desenvolvedoras. Além de tentar ajudar essas pessoas com o que eu já aprendi. 😁
+          </p>
+
+
+          <div class="botoes">
+            <a target="_blank" href="/src/arquivos/cv.pdf" class="botao outer-shadow">Veja meu CV</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="habilidades section" id="habilidades">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Habilidades</h2>
+        </div>
+      </div>
+
+      <div class="container-habilidades">
+        <div class="informacoes javascript">
+          <div class="logo">
+            <i class="devicon devicon-javascript-plain" id="javascript"></i>
+          </div>
+          <h3>JavaScript</h3>
+          <p>JavaScript (JS) é uma linguagem de programação interpretada, baseada em objetos e de alto nível. É a linguagem padrão dos navegadores e é utilizada para criar páginas web interativas. 
+            O JavaScript é versátil, amigável para iniciantes e é a linguagem de programação mais popular do mundo. </p>
+        </div>
+
+        <div class="informacoes html">
+          <div class="logo">
+            <i class="devicon devicon-html5-plain-wordmark" id="html"></i>
+          </div>
+          <h3>HTML5</h3>
+          <p>HTML5 (HyperText Markup Language 5) é a versão mais recente da linguagem de marcação de hipertexto. É usado para criar páginas e aplicações na web, permitindo a inclusão de conteúdo multimídia.</p>
+        </div>
+
+        <div class="informacoes css">
+          <div class="logo">
+            <i class="devicon devicon-css3-plain-wordmark" id="css"></i>
+          </div>
+          <h3>CSS3</h3>
+          <p>CSS3 é a terceira versão da linguagem Cascading Style Sheets (CSS), que é usada para definir estilos para páginas web. O CSS3 permite criar sites responsivos, com efeitos visuais e animações complexas. 
+            O CSS3 é usado por designers e desenvolvedores web em conjunto com o HTML para criar a estrutura e o estilo de um site.
+
+          </p>
+        </div>
+
+        <div class="informacoes github">
+          <div class="logo">
+            <i class="devicon devicon-github-original" id="github"></i>
+          </div>
+          <h3>GitHub</h3>
+          <p>O GitHub é uma plataforma online que serve como um repositório para projetos, principalmente de desenvolvimento de software. Ele utiliza o sistema de controle de versão Git para armazenar e gerenciar o código-fonte desses projetos.</p>
+        </div>
+
+        <div class="informacoes git">
+          <div class="logo">
+            <i class="devicon devicon-git-plain" id="git"></i>
+          </div>
+          <h3>Git</h3>
+          <p>O Git é um sistema de controle de versão distribuído, amplamente utilizado no desenvolvimento de software. Ele permite que você acompanhe todas as mudanças feitas em um projeto ao longo do tempo, facilitando a colaboração entre desenvolvedores e a gestão de diferentes versões do código.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projetos section" id="projetos">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Meus projetos</h2>
+        </div>
+      </div>
+
+      <div class="container-projetos">
+        <div class="projeto">        
+          <a href="https://github.com">
+            <img src="./src/imagens/previsao-tempo.png" alt="Previsão do Tempo" />
+            <h3>Previsão do Tempo</h3>
+            <div class="informacoes-projeto">          
+              <p>Projeto feito usando HTML, CSS e JavaScript e API'S para pesquisa e visualização do clima de cidades do mundo inteiro.</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>     
+          </a>
+        </div>
+
+        <div class="projeto">        
+          <a href="https://lucasghcs.github.io/To-do-list/">
+            <img src="./src/imagens/to-do-list.png" alt="Lista de Tarefas" />
+            <h3>Lista de Tarefas</h3>
+            <div class="informacoes-projeto">          
+              <p>Projeto utilizando React para criar uma lista de tarefas de facil utilização, podendo adicionar, excluir, modificar e riscar tarefas.</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>      
+          </a>          
+        </div>
+
+        <div class="projeto">     
+          <a href="https://github.com">
+            <img src="./src/imagens/portal-essencial.png" alt="Portal Essencial" />
+            <h3>Portal Essencial</h3>
+            <div class="informacoes-projeto">
+              <p>Projeto criado com o intuito de facilitar o acesso a portais de serviços, utilizando HTML, CSS e links para redirecinamento.</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>   
+        </div>
+
+        <div class="projeto">
+          <a href="https://github.com">
+            <img src="./src/imagens/lista-pokemon.png" alt="Lista Pokemon" />
+            <h3>Lista Pokémon</h3>
+            <div class="informacoes-projeto">
+              <p>Projeto de uma lista de alguns pokemons com seus tipos e caracteriticas.
+                foi feito utilizando HTML, CSS E JavaScript.
+              </p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <h2>Me envie uma mensagem!</h2>
+      <div class="redes-sociais">
+        <a href="https://www.linkedin.com/in/lucasghcs/" class="outer-shadow"><i class="fab fa-linkedin-in"></i></a>
+        <!-- <a href="#" class="outer-shadow"><i class="fab fa-whatsapp"></i></a> -->
+        <a href="https://github.com/Lucasghcs" class="outer-shadow"><i class="fab fa-github"></i></a>
+        <!-- <a href="#" class="outer-shadow"><i class="fab fa-instagram"></i></a> -->
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
